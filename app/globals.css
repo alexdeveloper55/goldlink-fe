@@ -4,24 +4,40 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 247, 250, 252;
+  --background-end-rgb: 247, 250, 252;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+} */
+
+.background {
+  background-color: #f7fafc;
+}
+
+.pnl-green {
+  color: #3cc13b;
+}
+
+.pnl-red {
+  color: #f03738;
+}
+
+.pill {
+  border-radius: 12px;
+  color: white;
+}
+
+.v-low {
+  background-color: #7879f1;
+}
+
+.v-medium {
+  background-color: #9b51e0;
+}
+
+.v-high {
+  background-color: #6148c2;
 }

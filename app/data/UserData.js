@@ -1,0 +1,38 @@
+export const UserData = [
+  {
+    id: 1,
+    strategy: "Strategy 1",
+    allocation: 500,
+    tvl: "$100,000",
+    volatility: "Low",
+    collateral: "$1,000",
+    pnl: 100,
+  },
+  {
+    id: 2,
+    strategy: "Strategy 2",
+    allocation: 125,
+    tvl: "$100,000",
+    volatility: "Medium",
+    collateral: "$1,000",
+    pnl: -100,
+  },
+  {
+    id: 1,
+    strategy: "Strategy 3",
+    allocation: 125,
+    tvl: "$100,000",
+    volatility: "Medium",
+    collateral: "$1,000",
+    pnl: 100,
+  },
+  {
+    id: 1,
+    strategy: "Strategy 4",
+    allocation: 250,
+    tvl: "$100,000",
+    volatility: "High",
+    collateral: "$1,000",
+    pnl: 100,
+  },
+]
